@@ -1,0 +1,10 @@
+<suite name = "Primusbank">
+<test name = " testingRep">
+<classes>
+<class name = "apr03.FrstTestNGclass">
+</class>
+<class name = "apr03.SecndTestNGclass">
+</class>
+</classes>
+</test>
+</suite>

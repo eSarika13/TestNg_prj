@@ -1,0 +1,15 @@
+
+<suite name = "Bankprims">
+<test name = "ChromeBankAplcn">
+<parameter name="Browser" value="Chrome">
+</parameter>
+<classes>
+<!--  <class name = "primusBank.AdminHomepage" >
+</class>
+<class name = "primusBank.PrimusHomepage" >
+</class> -->
+<class name = "primusBank.AdminLogin" >
+</class>
+</classes>
+</test>
+</suite>

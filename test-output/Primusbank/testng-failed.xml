@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Primusbank]">
+  <test thread-count="5" name=" testingRep(failed)">
+    <classes>
+      <class name="apr03.SecndTestNGclass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="empolyee"/>
+          <include name="role"/>
+          <include name="user"/>
+          <include name="branch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- apr03.SecndTestNGclass -->
+      <class name="apr03.FrstTestNGclass">
+        <methods>
+          <include name="cbanking"/>
+          <include name="pbanking"/>
+          <include name="ibanking"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- apr03.FrstTestNGclass -->
+    </classes>
+  </test> <!--  testingRep(failed) -->
+</suite> <!-- Failed suite [Primusbank] -->
